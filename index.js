@@ -1,3 +1,6 @@
+const keys = document.querySelector("#keys");
+const buttons = document.querySelectorAll("button");
+
 const display = document.getElementById("display");
 
 function appendToDisplay(input){
@@ -16,3 +19,4 @@ function calculate(){
         display.value = "Error";
     }
 }
+const calculator = document.querySelector("#calculator");
